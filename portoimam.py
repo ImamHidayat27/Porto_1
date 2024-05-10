@@ -2,8 +2,8 @@
 import random
 
 # Sebuah list kata-kata untuk dipilih
-KATA = ['python', 'pemrograman', 'komputer', 'ilmu', 'data', 'mesin', 'belajar','kopi','science','pocong','motor','jokowidodo',
-        'coklat','agaklaen','tolong','milea','dilan','purwadhika','rumahsakit','stasiun']
+KATA = ['python', 'pemrograman', 'komputer', 'ilmu', 'data', 'mesin', 'belajar','kopi','science','motor',
+        'coklat','tolong','milea','dilan','purwadhika','rumahsakit','stasiun']
 
 # Memilih sebuah kata secara acak dari list
 kata_yang_ditebak = random.choice(KATA)
